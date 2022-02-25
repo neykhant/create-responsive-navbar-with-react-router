@@ -1,0 +1,46 @@
+.create{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.create h1{
+    color:blueviolet;
+    font-size: 4rem;
+}
+
+.form_container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.email{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.username{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+.email_input{
+    padding: 1rem;
+    border-radius: 17px;
+    width: 100%;
+    font-size: 30px;
+}
+
+.form_buttom{
+    width: 25%;
+    padding: 15px;
+    background-color: aqua;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 22px;
+    margin-top: 30px;
+    color: #000;
+    border: none;
+}

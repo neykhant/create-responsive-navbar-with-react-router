@@ -18,6 +18,7 @@ const Navbar = () => {
     const handleClick = () => {
         setClicked(!clicked);
     }
+    
     return ( 
         <nav>
             <div className="logo">

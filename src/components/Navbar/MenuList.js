@@ -14,5 +14,17 @@ export const MenuList = [
     {
         title: "Services",
         url: "/service"
+    },
+    {
+        title: "Create",
+        url: "/create"
+    },
+    {
+        title: "Read",
+        url: "/read"
+    },
+    {
+        title: "Update",
+        url: "/update"
     }
 ]

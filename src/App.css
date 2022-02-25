@@ -53,7 +53,7 @@
   overflow: hidden;
 }
 
-.container::after{
+/* .container::after{
   background: rgba(0,0, 0, 0.6);
   content: '';
   width: 100%;
@@ -63,7 +63,7 @@
   bottom: 0;
   right: 0;
   left: 0;
-}
+} */
 
 .page-heading{
   display: flex;

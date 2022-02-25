@@ -6,6 +6,9 @@ import Home from './components/Pages/Home';
 import Contact from './components/Pages/Contact';
 import Service from './components/Pages/Service';
 import About from './components/Pages/About';
+import Create from './components/crud/Create';
+import Read from './components/crud/Read';
+import Update from './components/crud/Update';
 
 
 function App() {
@@ -18,6 +21,9 @@ function App() {
            <Route path="/contact" element={<Contact/>}/>
            <Route path="/service" element={<Service/>}/>
            <Route path="/about" element={<About/>}/>
+           <Route path="/create" element={<Create/>}/>
+           <Route path="/read" element={<Read/>}/>
+           <Route path="/update" element={<Update/>}/>
            </Routes>
        </Router>
     </div>
